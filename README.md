@@ -4,12 +4,11 @@
 ## Sobre o projeto 🔍
 
 <p align="center">
-Este projeto é um sistema de previsão do tempo responsivo, desenvolvido com o objetivo de fornecer informações atualizadas sobre as condições climáticas de qualquer localidade.
-Com uma interface simples e intuitiva, o usuário pode consultar a temperatura atual, saber se o tempo está ensolarado, nublado ou chuvoso, além de acompanhar dados sobre a umidade do ar. <br> <br>
-A aplicação foi construída utilizando HTML, CSS e JavaScript no front-end, garantindo uma boa experiência em diferentes dispositivos. 
-No back-end, a aplicação utiliza Node.js para tratar as requisições e fazer a integração com APIs de clima em tempo real. <br> <br>
+Este projeto é um sistema de previsão do tempo, desenvolvido com o objetivo de fornecer informações atualizadas sobre as condições climáticas de qualquer localidade.
+Com uma interface simples e intuitiva, o usuário pode consultar a temperatura atual, saber se o tempo está ensolarado, nublado ou chuvoso, além de acompanhar dados sobre a umidade do ar e velocidade do vento. <br> <br>
+A aplicação foi construída utilizando HTML, CSS e JavaScript.<br> <br>
 📡 O projeto pode ser acessado por este link: <br>
-👉 https://previsao-do-tempo-iamd.onrender.com/
+👉 https://previsao-do-tempo-xi-seven.vercel.app/
 </p>
 
 ## Funcionalidades ✨
@@ -22,11 +21,11 @@ No back-end, a aplicação utiliza Node.js para tratar as requisições e fazer 
 
 💧 **Umidade do ar:** Mostra o percentual de umidade da cidade consultada.  
 
-📱 **Design responsivo:** Interface adaptável para diferentes tamanhos de tela, incluindo celulares, tablets e desktops.  
+💨 **Velocidade do vento**: Apresenta a velocidade do vento em km/h.
 
 🌐 **Integração com API OpenWeatherMap:** Os dados meteorológicos são obtidos dinamicamente por meio da API OpenWeatherMap.  
 
-🔗 **Deploy online:** O seu deploy foi feito na render e pode ser acessado por qualquer um.
+🔗 **Deploy online:** O seu deploy foi feito na Vercel e pode ser acessado por qualquer um.
 
 ## Tecnologias Utilizadas 💻
 
@@ -34,17 +33,11 @@ No back-end, a aplicação utiliza Node.js para tratar as requisições e fazer 
 
 **CSS**: Responsável pela estilização da interface e adaptação para diferentes tamanhos de tela.
 
-**JavaScript**: Utilizado para adicionar interatividade no front-end.  
-
-**Node.js**: Ambiente de execução JavaScript no servidor.  
-
-**Express.js**: Framework Node.js utilizado para criar rotas e gerenciar o servidor.  
-
-**dotenv**: Biblioteca usada para gerenciar variáveis de ambiente de forma segura.  
+**JavaScript**: Utilizado para adicionar interatividade no front-end, e consultar a API. 
 
 **API OpenWeatherMap**: Serviço utilizado para obter dados de clima em tempo real de forma externa.  
 
-**Render**: Plataforma utilizada para fazer o deploy e deixar a aplicação online.
+**Vercel**: Plataforma utilizada para fazer o deploy e deixar a aplicação online.
 
 ## Como clonar o repositório 📋
 
@@ -52,23 +45,6 @@ Para clonar o repositório, execute o seguinte comando:
 
 ```bash
 git clone https://github.com/DanielBMoura/Previsao-do-Tempo.git
-```
-
-## Inicializando o servidor 🚀
-
-No CMD, entre na pasta do seu projeto e instale as dependências do projeto:
-```bash
-npm install
-```
-
-Crie um arquivo .env na raiz do projeto e adicione sua chave da API do OpenWeatherMap:
-```bash
-API_KEY=SUA_CHAVE_AQUI
-```
-
-Agora, inice o servidor:
-```bash
-node App.js
 ```
 
 ## Considerações finais 📝
