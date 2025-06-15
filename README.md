@@ -44,7 +44,7 @@ A aplicação foi construída utilizando HTML, CSS e JavaScript.<br> <br>
 Para clonar o repositório, execute o seguinte comando:
 
 ```bash
-git clone https://github.com/DanielBMoura/Previsao-do-Tempo.git
+git clone https://github.com/DanielBMoura/Previs-o-do-tempo-API.git
 ```
 
 ## Considerações finais 📝
